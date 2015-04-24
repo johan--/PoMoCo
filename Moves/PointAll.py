@@ -11,13 +11,14 @@ hexy.RF.knee(-60)
 hexy.RF.ankle(-60)
 time.sleep(0.2)
 hexy.RF.hip(45)
-hexy.neck.set(0)
 
 # Move: Point LF
 hexy.LF.knee(-60)
 hexy.LF.ankle(-60)
 time.sleep(0.2)
 hexy.LF.hip(45)
+
+
 hexy.neck.set(0)
 
 
