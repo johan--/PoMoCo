@@ -13,10 +13,15 @@ class hexapod():
 
     def __init__(self,con):
         self.con = con
-        
-        self.RF  = leg(con,'rightFront',24,25,26)
-        self.RM  = leg(con,'rightMid',20,21,22)
-        self.RB  = leg(con,'rightBack',16,17,18)
+
+        # original settings
+        # self.RF  = leg(con,'rightFront',24,25,26)
+        # self.RM  = leg(con,'rightMid',20,21,22)
+        # self.RB  = leg(con,'rightBack',16,17,18)
+
+        self.RF  = leg(con,'rightFront',26,25,24)
+        self.RM  = leg(con,'rightMid',22,21,20)
+        self.RB  = leg(con,'rightBack',18,17,16)
 
         self.LF  = leg(con,'leftFront',7,6,5)
         self.LM  = leg(con,'leftMid',11,10,9)
