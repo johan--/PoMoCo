@@ -23,3 +23,6 @@ hexy.LB.hip(deg)
 hexy.RF.hip(deg)
 hexy.LM.hip(1)
 hexy.RB.hip(-deg)
+
+move("Reset")
+

@@ -2,6 +2,9 @@ import time
  
 deg = -30
 
+hexy.neck.set(0)
+time.sleep(0.2)
+
 #put all the feet centered and on the floor.
 
 hexy.LF.hip(-deg)

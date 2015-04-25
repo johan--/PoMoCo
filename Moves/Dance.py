@@ -37,3 +37,5 @@ move('Tilt Backward')
 time.sleep(0.2)
 move('Tilt None')
 time.sleep(0.2)
+
+move("Reset")
