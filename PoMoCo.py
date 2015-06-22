@@ -11,7 +11,8 @@ sys.path.append('Moves')
 sys.path.append('PoMoCo')
 
 import servotorComm
-from robot import hexapod
+from robot import *
+#from robot import hexapod
 import GUI
 
 if __name__ == '__main__':

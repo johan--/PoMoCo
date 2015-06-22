@@ -10,3 +10,5 @@ hexy.RF.ankle(-60)
 time.sleep(0.2)
 hexy.RF.hip(45)
 hexy.neck.set(0)
+
+move("KillAll")

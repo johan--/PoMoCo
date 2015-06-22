@@ -24,6 +24,4 @@ hexy.RF.hip(deg)
 hexy.LM.hip(1)
 hexy.RB.hip(-deg)
 
-#kill all servos
-for servo in hexy.con.servos:
-    hexy.con.servos[servo].kill()
+move("KillAll")

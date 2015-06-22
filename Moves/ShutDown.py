@@ -31,7 +31,7 @@ for leg in hexy.legs:
     leg.hip(0)
 
 #kill all servos
-for servo in hexy.con.servos:
-    hexy.con.servos[servo].kill()
+# for servo in hexy.con.servos:
+#     hexy.con.servos[servo].kill()
 
-# hexy.con.killAll()
+move("KillAll")
